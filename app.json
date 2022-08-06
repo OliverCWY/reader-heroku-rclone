@@ -1,0 +1,28 @@
+{
+    "name": "阅读3",
+    "description": "利用人clone为储存部署阅读3",
+    "keywords": ["rclone","reader"],
+    "env": {
+        "rclone": {
+            "description": "rclone配置文件",
+            "value": "",
+            "required": true
+        },
+        "remote_path": {
+            "description": "远端rclone路径",
+            "value": "",
+            "required": true
+        },
+        "secureKey": {
+            "description": "管理密码",
+            "value": "",
+            "required": true
+        },
+        "inviteCode": {
+            "description": "注册码",
+            "value": "",
+            "required": true
+        },
+    },
+    "stack": "container"
+}
