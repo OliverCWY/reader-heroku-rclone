@@ -22,7 +22,7 @@
             "description": "注册码",
             "value": "",
             "required": true
-        },
+        }
     },
     "stack": "container"
 }
